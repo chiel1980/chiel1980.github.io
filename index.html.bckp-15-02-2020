@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>van Es pedals and pickups website</title>
+		<meta charset="utf-8" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!--<span class="icon fa-gem"></span> -->
+							<img src="https://vanespedalsandpickups.nl/images/VanEs_logo.svg" alt="logo alt" style="width: 50%; vertical-align: middle; margin-bottom: 5%">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>van Es pedals and pickups</h1>
+								<p>A small company creating one of the finest overdrive pedals for metal and <br>
+								hopefully later on a nice set of pickups that are tight, clear and full of dynamics.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#media">Media</a></li>
+								<li><a href="#faq">FAQ</a></li>
+								<li><a href="#testimonials">Testimonials</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+<!-- text -->
+<p>Hi and welcome to the van Es pedals and pickups website!</p>
+<p>I am Michiel van Es, a guitar player with a passion for overdrive pedals, pickups and simplicity.</p>
+<p>Since I was a young boy I always loved the sound of hard rock and metal music and especially the sound of a powerchord over a high gain amp.</p>
+<p>I learned playing guitar when I was 14 and played in bands later on.</p>
+<p>I too had issues of G.A.S. (Gear Aqcuiring Syndome) and found out that a heavy guitar sound can be improved by the use of OD pedals and good pickups with a lot of output and clarity.</p>
+<p>I don’t create any pickups yet but I do create the Esmeister OD pedal, a pedal which gives one of the best boosts you have heard and is very simple in use (just an on/off knob).</p>
+<p>Take a look at the <a href="#media" target="_blank">Media</a> section for some images and video clips and at the <a href="#testimonials" target="_blank">Testimonials</a> page for testimonials from some users of my pedals since you can better hear it from someone else then the builder of the pedal 😉</p>
+<p>PS. I am no company yet so you can not buy anything yet but stay tuned!</p>
+							</article>
+                                             <!-- FAQ -->
+                                                        <article id="faq">
+                                                                <h2 class="major">FAQ</h2>
+		<p><strong>What is an OD pedal?</strong></p>
+<p>An OD or <strong>o</strong>ver<strong>d</strong>rive pedal boosts your amp by getting a tighter punch with as less colouring as possible so your amp sounds like it is on steroids, something a lot of hardcore/metal guitarist like.<br />
+It used to be to push a clean amp to give a little crunch but it&#8217;s also found it&#8217;s spot on hardcore/metal guitarist&#8217; pedalboards because of this feature to tighten the lows and increase some mids without giving extra gain.</p>
+<p><strong>Do you create your own print or pedal lay-out?</strong></p>
+<p>No I do not, I use a preprinted print/board with components and alter the layout a bit (for example by applying the Keeley Mod) and change the IC chip and remove the potmeters for trimpots, etc.</p>
+<p><strong>Why should I buy your pedal? I can do it myself!</strong></p>
+<p>Feel free to create your own pedal! I embrace people creating their own tools for the job!<br />
+If you think my pedals look and sound awesome and don&#8217;t have the proper skills to create my Esmeister OD pedal then consider buying one. Me and others think it sounds better then most known OD/TS-808 pedals out there without all sorts of knobs to tweak your sound, just an on and off switch.</p>
+<p><strong>Why do you think your pedal is better then the bigger known pedals out there?</strong></p>
+<p>Better is subjective; I think my pedal sounds better then the known bigger brand OD 808 pedals out there.<br />
+I&#8217;ve tested them myself and I asked friends and other guitar players to test them out against their beloved green pedal.<br />
+Again this is my and <a href="#testimonials" target="_blank">their opinion</a> but feel free to like your green OD 808 pedal a bit more then my pedals 🙂</p>
+<p><strong>Are those testimonials I read from those artists real?</strong></p>
+<p>Yes they are 100% real; I&#8217;ve asked some guitar players that I know or admire to test the pedal and write me an honest testimonial and give me feedback what I could improve on the Esmeister.<br />
+No shade endorsements of some kind, just a simple: Are you willing to test my pedal, if so here is my pedal, you can have it for free but please let me know what you think of it in return.</p>
+<p>Nothing more, nothing less.</p>
+<p><strong>What are the main features of your Esmeister pedals?</strong></p>
+<ul>
+<li>true bypass</li>
+<li>better IC opamp then the default JRC 4558</li>
+<li>Keeley Mod for better dynamics and tight low end even at low drive/gain settings on the pedal</li>
+<li>K.I.S.S. -&gt; just an On/Off button</li>
+<li>sturdy casing and clear led</li>
+<li>channel switching possibility</li>
+<li>perhaps more features or mods without all the knobs and switches 😉</li>
+</ul>
+<p><strong>I want an OD pedal with 100 buttons and features, can you create one for me?</strong></p>
+<p>Well&#8230;I might be able to create it for you but I like my pedals K.I.S.S. -&gt; Keep It Simple Stupid. It does 1 job and does it very well.<br />
+I love simplicity and sturdiness, the more components, the bigger the risk to have a failure somewhere between all those solder points 🙂<br />
+Please buy a nice boutique OD pedal with a lot of EQ options if you think you need it, my pedals boost your original high gain sound of your amp with some small characteristics and that&#8217;t that.</p>
+<p><strong>Do you do any sort of quality assurance?</strong></p>
+<p>Yes! In matter of fact I do al kinds of quality assurances:</p>
+<ul>
+<li>Functional: I solder by hand, I know machines are more accurate and precise but factory machines are most of the time not made to some proper testing, I check my solder joints and check if all electronics work as expected</li>
+<li>Endurance: I check my pedals after I have soldered them and they are in the casing ensuring there is no short circuit and test the on/off button a good few times to ensure that the pedal works as expected, I also give them a good shake to make sure no short circuit is occurring and that everything remains in its place</li>
+</ul>
+<p>Note: I can not guarantee that the pedal always work and work after shipping but if something is broken, contact me and we will sort it out. Most of the time it is an easy fix.<br />
+Things do break even when properly created, soldered and tested.</p>
+<p><b>When can we see your own pickups?</b></p>
+<p>No ETA yet, I want to build my own pickups sounding like the things I like from other big brands but more to my liking.<br />
+I think every big brand has something unique but always having too much treble, or bass or lack of mids.<br />
+By creating my own pickup I can just create them the way I like them best for tight percussive riffs or fluid leads without the need to change your EQ too much.</p>
+<p><b>Can I use the channel switching option on all amps?</b></p>
+<p>No, the channel switching option can only be used on latching guitar amp mostly: Peavey 5150/6505, Mesa Boogie Dual Rectifier (older 2 channel) and Laney Lionheart 50.<br />
+It is simple but very effective for the most common used metal amps out there.</p>
+<p><b>How will your pickups sounds? Can I compare them to any other known brands?</b></p>
+<p>Yes they will sound a bit like the other big known brands but it will have my own characteristics and minus the things I don&#8217;t like from the other pickups 😉</p>
+<p><b>Is there an official design and can I customize the design?</b></p>
+<p>There is not 1 but 2 official designs you can choose from &#8211; see also our <a href="#media" target="_blank" rel="noopener">media</a> section:</p>
+<ul>
+<li>The &#8216;bull&#8217; with logo and Esmeister (and with or without icons)</li>
+<li>The simple van Es logo with Esmeister (and with or without icons)</li>
+</ul>
+<p>The default is the simple version (most people prefer the simplicity of that design) without icons with a blank, black, red or gold spray paint on the etched logo (and/or icons)<br />
+I don&#8217;t do custom jobs but who knows in the future? 😉</p>
+<p><b>When can I buy your pedals and/or pickups?</b></p>
+<p>No ETA yet, first I want to finish my design and test them very well.<br />
+Ask other (metal) guitar players to test them and tell me what they like and don&#8217;t like and then improve the sound of the pedal or pickup.<br />
+I will start selling my pedals and/or pickups when they are ready and people show genuine interest.<br />
+I will/might create a newsletter or poll so I can see if people are interested, nothing for now yet.</p>
+<p><b>How am I informed of new iterations to your pedals and pickups or when I can buy them or any news in general?</b></p>
+<p>Please check my <a href="https://www.instagram.com/vanespedalsandpickups/" target="_blank" rel="noopener">Instagram</a>, subscribe to it (check the feed) or send me an email via the <a href="#contact" target="_blank" rel="noopener">contact form</a> of this blog or my website.</p>
+                                                        </article>
+
+
+						<!-- Media -->
+							<article id="media">
+								<h2 class="major">Media</h2>
+								<p>Below you can find some media of the Esmeister OD pedal</p>
+<section><h3>Videos</h3>
+<p><strong>Kemper profiler</strong> &#8211; A demo of the Esmeister and the Kemper profiler</p>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeister-kemper-kpa.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p><strong>Peavey 6505</strong> &#8211; A demo of the Esmeister with channel switching:</p>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeister-peavey6505.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p><strong>Peavey 6505</strong> &#8211; A demo of the Esmeister disengaged and engaged to hear the difference between the amp&#8217;s own sound and what the Esmeister OD does to the sound engaged:</p>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeister-diseng.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p><strong>Marshall JCM 800</strong> and Esmeister demo by Mike Schleibaum from the band Darkest Hour:</p>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeister-marshall.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p><strong>EVH 5150 III</strong> and the Esmeister demo by Mike Schleibaum from the band Darkest Hour:</p>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeiter-5150iii.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p><strong>Mesa Boogie Tremoverb Dual rectifier</strong> and the Esmeister demo made by Scott Mellinger from the band Zao, his quote on testing the pedal:</p>
+<blockquote><p>It sounds incredible! It perfectly balanced you don’t lose low end it doesn’t color the tone it just takes it to 11!! Haha</p>
+</blockquote>
+<video width="320" height="240" controls>
+  <source src="/videos/esmeister-mesa.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<section><h3>Images</h3>
+<h3>
+<!-- <img src="/images/img_0134.jpg?w=225&#038;h=300" width="225" height="300" class="size-medium"> -->
+<img src="/images/img_0134.jpg" alt="ESmeister OD" width="225" height="300" class="size-medium">
+<img src="/images/img_1659.jpg" alt="ESmeister OD" width="225" height="300" class="size-medium">
+<img src="/images/img_0026.jpg" alt="ESmeister OD" width="225" height="300" class="size-medium">
+<img src="/images/img_2800-1.jpg" alt="ESmeister OD" width="225" height="300" class="size-medium"></h3>
+
+<p>
+<img src="/images/img_3108-1.jpg" alt="ESmeister OD" width="275" height="300">
+<img src="/images/img_3109-1.jpg" alt="ESmeister OD" width="275" height="300">
+<img src="/images/esmeister-031-1.jpg" alt="ESmeister OD" width="275" height="325">
+<img src="/images/esmeister-043-1.jpg" alt="ESmeister OD" width="275" height="325">
+<img src="/images/esmeister-022-1.jpg" alt="ESmeister OD" width="275" height="325">
+</p>
+</section>
+</section>
+							</article>
+						<!-- Testimonials -->
+							<article id="testimonials">
+								<h2 class="major">Testimonials</h2>
+<p>Stefan van Neerven, Guitarist for <a href="https://www.facebook.com/BornFromPainOfficial/" target="_blank" rel="noopener">Born from Pain</a>:</p>
+<blockquote><p><img src="images/stefan-bfp.jpg" alt="Stefan van Neerven" width="275" height="300"/></p>
+<p><em>&#8220;Let me start off by stating that I am not a 'pedal guy' and therefore also not an 'overdrive guy'. I like the way amps sound the way they are. All my amps have plenty of gain so I never felt the need to overdrive them. I do own a couple of different overdrives, but they never made it to my rig. The Esmeister changed the way I look at that. If an overdrive gives your amp an ass-kick, the Esmeister gives it 2. Use it on a Mesa-like amp and it wil add aggression and tightness without losing too much depth in your chug. Use it on a Marshall-like amp and it will instantly modernise its tone and distortion character. The only disadvantage is that once you turn an Esmeister on, your awesome sounding amp will suddenly sound quite boring without it. Add some killer graphics and protected settings to that and you have an absolute winner. &#8220;</em></p></blockquote>
+
+<p>Mike Schleibaum, Guitarist for <a href="https://www.facebook.com/DarkestHourDudes/" target="_blank" rel="noopener">Darkest Hour</a>:</p>
+<blockquote><p><img src="images/mike-dh.png" alt="Mike Schleibaum" width="275" height="300"/></p>
+<p><em>&#8220;The Esmeister is a killer addition to my arsenal of high gain ear splitting guitar assault tools!. I love its simple and sleek construction. I am also not turned off by its lack of tonal control, I love pedals that know exactly what they are. It’s easy to blend this pedal with many modern high gain options and I have enjoyed experimenting with the boast it brings. I love that the Esmeister doesn’t lose low end and still delvers that punch. A must have for all you overdrive pedal enthusiasts out there! &#8220;</em></p></blockquote>
+
+<p>Scott Mellinger, Guitarist for <a href="https://www.facebook.com/ZAO.Official/" target="_blank" rel="noopener">Zao</a>:</p>
+<blockquote><p><img src="images/scott-zao.jpeg" alt="Scott Mellinger" width="275" height="300"/></p>
+<p><em>&#8220;The Van Es overdrive is perfect in its simplicity, it gives you that extra punch without coloring the tone. A lot of other OD’s I’ve tried seem to brighten up or lose low end, the Van Es doesn’t. The channel switching capability is an added awesome bonus and works flawlessly with my Mesa Tremoverb. Do not be turned off by not having EQ or any other knob, trust me there is no need to adjust anything it’s right where you want it. &#8220;</em></p></blockquote>
+
+<p>JB Brubaker, Guitarist for <a href="https://nl-nl.facebook.com/augustburnsred/" target="_blank" rel="noopener">August Burns Red</a>:</p>
+<blockquote><p><img src="images/jb-abr.jpg" alt="JB Brubaker" width="275" height="300"/></p>
+<p><em>“The Esmeister overdrive pedal rips.  I traditionally have used a Maxon OD808 or Ibanez TS9 in front of my Peavey 6505+, but this pedal sounds tighter with more punch than my old overdrive pedals.  I found my palm mute chugs to be tighter and less fizzy.  This pedal rules! I also love the light up bull eyes on the pedal itself.  Nice touch!”</em></p></blockquote>
+
+<p>Tommie Bonajo, Producer/Guitarist for <a href="https://www.tomsterstudios.com/" target="_blank" rel="noopener">Tomster Studios</a>/<a href="https://www.facebook.com/blindsightofficial/" target="_blank" rel="noopener">Blind Sight</a>:</p>
+<blockquote><p><img src="images/tommie-blindsight.jpg" alt="Tommie Bonajo" width="275" height="300"/></p>
+<p><em>&#8220;I&#8217;ve tried the Esmeister with the MC33178 chip on my Mesa Dual Rectifier and it smoked the OD808! It gave the amp more pronounced mids, less fizz in the high end and a tighter low end. Also love the plug n play, one button control and the great bullhead design.&#8221;</em></p></blockquote>
+
+<p>Draconis, Guitarist / Vocalist / Composer for <a href="http://www.infinity-blackmetal.com/" target="_blank" rel="noopener">INFINITY</a> :</p>
+<blockquote><p><img src="images/draconis.png" alt="Draconis" width="275" height="300"/></p>
+<p><em>&#8220;The Esmeister is one of the best overdrive pedals I have used. It currently has knocked my Maxon OD-820 off the overdrive throne. It features tighter low ends and has a bit more punch, clarity and sounds more aggressive.</em><br />
+<em> It has an excellent clarity of individual notes, but still has a kind of warm and round touch when riffing with power chords. It is also a perfect and tight sounding pedal when tremolo picking or doing palm mutes.</em><br />
+<em> Besides the great sound it is a very simple, easy to use and robust piece of kit.</em><br />
+<em> The Esmeister pairs very well with my 5150 amp and sits great in our overall mix, giving the dynamic aggressive sound we are looking for.&#8221;</em></p></blockquote>
+
+<p>Tim van Tilburg, Guitarist for <a href="https://nl-nl.facebook.com/allfornothinghc" target="_blank" rel="noopener">All for Nothing</a>:</p>
+<blockquote><p><img src="images/tim-afn.jpg" alt="Tim van Tilburg" width="275" height="300"/></p>
+<p><em>&#8220;The pedal sounds better then my Maxon OD-808, I love the simplicity and the way it tightens up my amp (Peavey 5150). I use it as my main OD on our current tour.</em><em>&#8220;</em></p></blockquote>
+
+							</article>
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="https://formspree.io/mlegprbj">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="https://www.instagram.com/vanespedalsandpickups/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.facebook.com/vanespedalsandpickups/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="mailto:mve+website@vanespedalsandpickups.nl" class="fas fa-envelope"><span class="label"></span></a></li>
+								</ul>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; van Es pedals and pickups</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
