@@ -94,9 +94,29 @@
 
 			}, userConfig);
 
-			// Expand "target" if it's not a jQuery object already.
-				if (typeof config.target != 'jQuery')
-					config.target = $(config.target);
+			// Expand "target" if it's not a jQuery object or DOM element already.
+				if (!(config.target instanceof jQuery)) {
+					// If config.target is a DOM element, wrap it.
+					if (
+						config.target &&
+						(typeof HTMLElement === "object"
+							? config.target instanceof HTMLElement // For most browsers
+							: config.target &&
+								typeof config.target === "object" &&
+								config.target.nodeType === 1 &&
+								typeof config.target.nodeName === "string")
+					) {
+						config.target = $(config.target);
+					} else if (typeof config.target === "string") {
+						// Prevent HTML fragments as selectors to mitigate XSS
+						if (/^\s*</.test(config.target)) {
+							throw new Error("panel(): The 'target' option must not be an HTML string. Only selectors or elements are allowed.");
+						}
+						config.target = $(config.target);
+					} else {
+						throw new Error("panel(): The 'target' option must be a selector, DOM element, or jQuery object.");
+					}
+				}
 
 		// Panel.
 
