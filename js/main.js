@@ -1,0 +1,1 @@
+console.log('Vanes Pedals redesign loaded');
