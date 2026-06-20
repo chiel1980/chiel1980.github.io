@@ -1,1 +1,1 @@
-console.log('Vanes Pedals redesign loaded');
+console.log('Vanes Pedals HTML5 redesign loaded');

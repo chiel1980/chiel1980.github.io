@@ -1,70 +1,22 @@
-:root{
---dark:#111;
---light:#f7f7f7;
---accent:#ff5a36;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{
-font-family:Arial, sans-serif;
-color:var(--dark);
-line-height:1.6;
-}
-.header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:25px 8%;
-}
-.logo{font-size:28px;font-weight:800}
+:root{--accent:#e65b2b;--dark:#111;--light:#f5f5f5}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:var(--dark);line-height:1.6}
+.container{width:min(1100px,90%);margin:auto}
+.site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.logo{font-size:28px;font-weight:800;text-decoration:none;color:#111}
 .logo span{color:var(--accent)}
-nav a{
-margin:0 12px;
-text-decoration:none;
-color:#333;
-}
-.button{
-background:var(--accent);
-color:white;
-padding:14px 28px;
-border-radius:50px;
-text-decoration:none;
-display:inline-block;
-}
-.hero{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:50px;
-padding:80px 8%;
-align-items:center;
-}
-.hero h1{
-font-size:clamp(40px,5vw,70px);
-line-height:1.05;
-}
-.hero img{
-width:100%;
-border-radius:30px;
-}
-.features{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-padding:60px 8%;
-background:var(--light);
-}
-.cards{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-padding:40px 8%;
-}
-.cards article{
-padding:30px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-}
-footer{text-align:center;padding:40px}
+nav a{margin-left:25px;text-decoration:none;color:#222}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;padding:80px 0;align-items:center}
+h1{font-size:clamp(38px,5vw,64px);line-height:1.1}
+.btn{display:inline-block;background:var(--accent);color:white;padding:14px 28px;border-radius:30px;text-decoration:none}
+.visual,.placeholder{height:350px;background:var(--light);border-radius:25px;display:grid;place-items:center}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;padding:50px 0}
+.cards article{padding:25px;background:#fff;box-shadow:0 10px 30px #0001;border-radius:20px}
+footer{background:#111;color:white;padding:30px;margin-top:60px}
+.menu{display:none}
 @media(max-width:800px){
+.hero,.cards{grid-template-columns:1fr}
 nav{display:none}
-.hero,.features,.cards{grid-template-columns:1fr}
+.menu{display:block}
 }
