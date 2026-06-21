@@ -660,8 +660,6 @@
 
       <h3 style="font-family:var(--font-display);font-size:1.8rem;margin-top:4rem;margin-bottom:1rem;">Images</h3>
       <div class="image-grid">
-        <img src="esmeister-01.png" alt="Esmeister OD — yellow with glowing red LED eyes" />
-        <img src="esmeister-02.png" alt="Esmeister OD — yellow with brushed metal skull" />
         <img src="https://vanespedals.nl/old/images/esmeister-yellow-new.jpg" alt="New Esmeister OD — yellow skull design" onerror="this.style.display='none'" />
         <img src="https://vanespedals.nl/old/images/esmeister-old1.jpg" alt="Esmeister OD early design 1" onerror="this.style.display='none'" />
         <img src="https://vanespedals.nl/old/images/esmeister-old2.jpg" alt="Esmeister OD early design 2" onerror="this.style.display='none'" />
