@@ -435,43 +435,48 @@
       align-items: start;
     }
 
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+    }
+
     .contact-info p {
       color: var(--muted);
       font-weight: 300;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     .social-links {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
+      display: table;
+      border-spacing: 0 0.6rem;
     }
 
     .social-links a {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
+      display: table-row;
       color: #ccc;
       text-decoration: none;
       font-size: 0.9rem;
       transition: color 0.2s;
-      line-height: 1.2;
     }
 
     .social-links a:hover { color: var(--amber); }
 
     .social-icon {
+      display: table-cell;
       width: 36px;
       height: 36px;
-      min-width: 36px;
       background: var(--card);
       border: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
       font-size: 1rem;
-      flex-shrink: 0;
-      line-height: 1;
+      padding: 0;
+    }
+
+    .social-label {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 0.75rem;
     }
 
     .contact-form {
@@ -902,11 +907,11 @@
         <p>Interested in the Esmeister OD, want to stay updated on availability, or have a question? Reach out below or find me on social media.</p>
         <nav class="social-links" aria-label="Social media links">
           <a href="https://www.instagram.com/vanespedals/" target="_blank" rel="noopener noreferrer">
-            <span class="social-icon" aria-hidden="true">&#128247;</span>@vanespedals on Instagram</a>
+            <span class="social-icon" aria-hidden="true">&#128247;</span><span class="social-label">@vanespedals on Instagram</span></a>
           <a href="https://www.facebook.com/vanespedals/" target="_blank" rel="noopener noreferrer">
-            <span class="social-icon" aria-hidden="true">&#128077;</span>Van Es Pedals on Facebook</a>
+            <span class="social-icon" aria-hidden="true">&#128077;</span><span class="social-label">Van Es Pedals on Facebook</span></a>
           <a href="mailto:mve+website@vanespedals.nl">
-            <span class="social-icon" aria-hidden="true">&#9993;</span>mve+website@vanespedals.nl</a>
+            <span class="social-icon" aria-hidden="true">&#9993;</span><span class="social-label">mve+website@vanespedals.nl</span></a>
         </nav>
       </div>
       <div>
