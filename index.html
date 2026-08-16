@@ -270,12 +270,58 @@
       overflow: hidden;
     }
 
-    .video-card video {
+    .video-card video,
+    .video-card iframe {
       width: 100%;
       display: block;
       aspect-ratio: 16/9;
       object-fit: cover;
       background: #000;
+      border: none;
+    }
+
+    .yt-facade {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000 center/cover no-repeat;
+      cursor: pointer;
+      border: none;
+      padding: 0;
+      display: block;
+    }
+
+    .yt-facade .yt-play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 68px;
+      height: 48px;
+      background: rgba(13,13,13,0.75);
+      border: 2px solid var(--amber);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .yt-facade .yt-play-btn::after {
+      content: '';
+      border-style: solid;
+      border-width: 10px 0 10px 16px;
+      border-color: transparent transparent transparent var(--amber);
+      margin-left: 3px;
+    }
+
+    .yt-facade:hover .yt-play-btn {
+      background: var(--amber);
+      transform: translate(-50%, -50%) scale(1.05);
+    }
+
+    .yt-facade:hover .yt-play-btn::after {
+      border-color: transparent transparent transparent #000;
     }
 
     .video-card-body {
@@ -639,72 +685,32 @@
       <div class="video-grid">
 
         <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with Kemper Profiler">
-            <source src="https://vanespedals.nl/videos/esmeister-kemper-kpa.mp4" type="video/mp4">
-          </video>
+          <button type="button" class="yt-facade" data-yt-id="Ay6DUz40ebo" style="background-image:url('https://i.ytimg.com/vi/Ay6DUz40ebo/hqdefault.jpg')" aria-label="Play Esmeister OD demo video 1">
+            <span class="yt-play-btn" aria-hidden="true"></span>
+          </button>
           <div class="video-card-body">
-            <b>Kemper Profiler</b>
-            <p>Demo of the Esmeister with the Kemper Profiler</p>
+            <b>Esmeister OD Demo</b>
+            <p>Watch the Esmeister OD in action</p>
           </div>
         </div>
 
         <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with Peavey 6505 channel switching">
-            <source src="https://vanespedals.nl/videos/esmeister-peavey6505.mp4" type="video/mp4">
-          </video>
+          <button type="button" class="yt-facade" data-yt-id="TwD1PqMk5EY" style="background-image:url('https://i.ytimg.com/vi/TwD1PqMk5EY/hqdefault.jpg')" aria-label="Play Esmeister OD demo video 2">
+            <span class="yt-play-btn" aria-hidden="true"></span>
+          </button>
           <div class="video-card-body">
-            <b>Peavey 6505 &mdash; Channel Switching</b>
-            <p>Demo of the Esmeister with channel switching engaged</p>
+            <b>Esmeister OD Demo</b>
+            <p>Watch the Esmeister OD in action</p>
           </div>
         </div>
 
         <div class="video-card">
-          <video controls preload="none" title="Esmeister OD engaged vs disengaged comparison">
-            <source src="https://vanespedals.nl/videos/esmeister-diseng.mp4" type="video/mp4">
-          </video>
+          <button type="button" class="yt-facade" data-yt-id="SDj2yl5poiU" style="background-image:url('https://i.ytimg.com/vi/SDj2yl5poiU/hqdefault.jpg')" aria-label="Play Esmeister OD demo video 3">
+            <span class="yt-play-btn" aria-hidden="true"></span>
+          </button>
           <div class="video-card-body">
-            <b>Peavey 6505 &mdash; Engaged vs Disengaged</b>
-            <p>Hear the difference between the amp alone and with the Esmeister</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with Marshall JCM 800 by Mike Schleibaum">
-            <source src="https://vanespedals.nl/videos/esmeister-marshall.mp4" type="video/mp4">
-          </video>
-          <div class="video-card-body">
-            <b>Marshall JCM 800</b>
-            <p>Demo by Mike Schleibaum (Darkest Hour)</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with EVH 5150 III by Mike Schleibaum">
-            <source src="https://vanespedals.nl/videos/esmeiter-5150iii.mp4" type="video/mp4">
-          </video>
-          <div class="video-card-body">
-            <b>EVH 5150 III</b>
-            <p>Demo by Mike Schleibaum (Darkest Hour)</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with Mesa Boogie Tremoverb Dual Rectifier by Scott Mellinger">
-            <source src="https://vanespedals.nl/videos/esmeister-mesa.mov" type="video/mp4">
-          </video>
-          <div class="video-card-body">
-            <b>Mesa Boogie Tremoverb Dual Rectifier</b>
-            <p>Demo by Scott Mellinger (Zao)</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video controls preload="none" title="Esmeister OD demo with PRS MT 15">
-            <source src="https://vanespedals.nl/videos/esmeister-prsmt15.mp4" type="video/mp4">
-          </video>
-          <div class="video-card-body">
-            <b>PRS MT 15</b>
-            <p>Esmeister OD with the PRS MT 15 amp</p>
+            <b>Esmeister OD Demo</b>
+            <p>Watch the Esmeister OD in action</p>
           </div>
         </div>
 
@@ -952,6 +958,18 @@
       a.addEventListener('click', function () {
         navLinks.classList.remove('open');
         hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    document.querySelectorAll('.yt-facade').forEach(function (facade) {
+      facade.addEventListener('click', function () {
+        var videoId = facade.getAttribute('data-yt-id');
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+        iframe.title = facade.getAttribute('aria-label') || 'YouTube video player';
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+        iframe.setAttribute('allowfullscreen', '');
+        facade.replaceWith(iframe);
       });
     });
   </script>
